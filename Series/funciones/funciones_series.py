@@ -21,7 +21,7 @@ print(serie[serie >20])
 print(serie.sort_values())
 
 # Orden por index
-print(serie.sort_index(ascending=False))
+print(serie.sort_index(ascending=True))
 
 # Crear una serie a partir de una dato (escalar)
 data = 10
